@@ -27,7 +27,7 @@ jobs:
         run: dotnet test --no-restore --verbosity normal
 
       # Publish Core
-      - name: publish Mahamudra.Cryptography.Notation
+      - name: publish Notation
         id: publish_nuget_notation
         uses: rohith/publish-nuget@v2
         with:
