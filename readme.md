@@ -59,3 +59,8 @@ A simple package that implements the base-58 encoding.
         Assert.AreEqual(encoding, string1)
         Assert.AreEqual(encodingv2, string1)
 ```
+
+#### Flaticon License
+Free for personal and commercial purpose with attribution. 
+
+<a href="https://www.flaticon.com/free-icons/lotus-flower" title="lotus flower icons">Lotus flower icons created by Freepik - Flaticon</a>
