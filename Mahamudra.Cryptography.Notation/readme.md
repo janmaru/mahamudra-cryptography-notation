@@ -1,6 +1,4 @@
-﻿﻿# Mahamudra.Cryptography.Notation
-![alt text](tezos-WN5_7UBc7cw-unsplash.jpg "Mahamudra Cryptography Notation")
-[Photo by Tezos on Unsplash]
+﻿﻿# Mahamudra Cryptography Notation
 
 ## EncodeBase58
 
@@ -10,12 +8,12 @@ The original Bitcoin client source code explains the reasoning behind base58 enc
 
 base58.h:
 
-// Why base-58 instead of standard base-64 encoding?
-// - Don't want 0OIl characters that look the same in some fonts and
-//      could be used to create visually identical looking account numbers.
-// - A string with non-alphanumeric characters is not as easily accepted as an account number.
-// - E-mail usually won't line-break if there's no punctuation to break at.
-// - Doubleclicking selects the whole number as one word if it's all alphanumeric.
+> Why base-58 instead of standard base-64 encoding?
+>  - Don't want 0OIl characters that look the same in some fonts and
+>     could be used to create visually identical looking account numbers.
+>  - A string with non-alphanumeric characters is not as easily accepted as an account number.
+>  - E-mail usually won't line-break if there's no punctuation to break at.
+>  - Doubleclicking selects the whole number as one word if it's all alphanumeric.
 
 
 A simple package that implements the base-58 encoding.
