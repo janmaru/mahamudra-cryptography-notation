@@ -10,6 +10,7 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageIcon>lotus-flower.png</PackageIcon>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/janmaru/mahamudra-cryptography-notation</RepositoryUrl> 
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="GitVersion.MsBuild" Version="5.8.1">

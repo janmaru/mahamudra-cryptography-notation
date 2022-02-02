@@ -13,6 +13,7 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Mahamudra.Cryptography.Nota
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{916F4273-67E7-4597-B39A-0B3999EB8C77}"
 	ProjectSection(SolutionItems) = preProject
+		.github\workflows\main.yml = .github\workflows\main.yml
 		readme.md = readme.md
 		Mahamudra.Cryptography.Notation\tezos-WN5_7UBc7cw-unsplash.jpg = Mahamudra.Cryptography.Notation\tezos-WN5_7UBc7cw-unsplash.jpg
 	EndProjectSection
